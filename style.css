@@ -1,0 +1,89 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.main-sec{
+    background-color: white;
+    margin: 5%;
+}
+.main-title{
+    display: flex;
+    
+    
+}
+h1{
+    font-size: 40px;
+}
+.influnce{
+    display: flex;  
+}
+.influence-info{
+    width: 50%;
+    padding-left: 5%;
+}
+.influence-info a, .join-info a{
+    text-decoration: none;
+    background-color: violet;
+    padding: 2%;
+    border-radius: 5px;
+    color: white;
+}
+.influence-info img{
+    width: 80%;
+    background-color: white;
+}
+.influence-info :hover .photo {
+    transform: scale(1.5) rotate(60deg);
+    transition: transform 2s ease-in-out;
+}
+/* popular collection */
+h2{
+    display: flex;
+    justify-content: center;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    margin: 5%;
+}
+.collection{
+    background-color: whitesmoke;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: darkgoldenrod;
+}
+/* media */
+.media{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 5%;
+}
+.join-info h3{
+      margin-bottom: 35%;
+}
+.footer{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+}
+/* media quaries
+ */
+ /* mobail device */
+
+@media only screen and (max-width:680px) {
+    .influnce{
+        background-color: red;
+    }
+}
